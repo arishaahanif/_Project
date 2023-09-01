@@ -7,22 +7,21 @@ body {
 
 .navbar {
     background-color: #f8f7fc;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; */
+
     margin: 0;
     padding: 15px 0px;
     box-shadow: 0 1px 20px rgba(172, 172, 172, 0.2);
 
 
 }
+
 .navbar-nav .dropdown-menu {
-text-align: center;
-background-color:#fff ;
-border:0
+    text-align: center;
+    background-color: #fff;
+    border: 0
 }
-.navbar-nav .dropdown-menu .dropdown-item{
+
+.navbar-nav .dropdown-menu .dropdown-item {
     font-size: 14px;
     padding: 10px 0;
     text-transform: capitalize;
@@ -35,7 +34,6 @@ border:0
     padding: 8px 25px;
     font-size: 14px;
     font-weight: 600;
-    /* letter-spacing: 1px; */
 }
 
 .navbar .d-flex ._btn {
@@ -46,15 +44,13 @@ border:0
     font-size: 14px;
     border: 0;
     font-weight: 600;
-    /* letter-spacing: 1px; */
 }
 
 .navbar .navbar-nav .nav-link {
     color: #000;
     font-size: 15px;
     margin: 0 3px;
-    /* transition: 0.5 ease; */
-    /* font-weight:600 */
+
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -63,8 +59,7 @@ border:0
 
 .main {
     background-color: #f3f4fe;
-    /* height: 100vh; */
-    padding: 2rem 0 6rem 0 ;
+    padding: 2rem 0 6rem 0;
 
 }
 
@@ -122,8 +117,7 @@ border:0
 .main .f_container {
     display: flex;
     margin: 5px 0px;
-    /* padding:20px 0px */
-    /* align-items: center; */
+
 }
 
 .main .f_container .color {
@@ -148,7 +142,6 @@ border:0
 
 .main .bg_form {
     background-color: #fff;
-    /* height:100vh; */
 
 }
 
@@ -165,7 +158,6 @@ border:0
 
 .main .card .card-img-overlay {
     width: fit-content;
-    /* display: flex; */
     height: fit-content;
     margin: auto;
 }
@@ -185,8 +177,7 @@ border:0
     margin: auto;
 }
 
-/* sahe se use krna isko bd me */
-.form-check-label {
+.main .card .card-img-overlay .form .form-check-label {
     white-space: nowrap;
 }
 
@@ -277,7 +268,6 @@ border:0
 
 .hero_section .r_container .r_item .s_container .s_item {
     margin-right: 20px;
-    /* border-right:1px dotted  */
 }
 
 .hero_section .r_container .r_item .s_container .s_item .reviews {
@@ -298,7 +288,6 @@ border:0
 
 .section .writer {
     text-align: center;
-    /* margin:20px 0px; */
     padding: 60px 0px;
 
 }
@@ -324,18 +313,17 @@ border:0
 
 .section .card {
     border: 1px solid transparent;
-    /* box-shadow: 0 5px 24px rgba(0,0,0,.08); */
     box-shadow: 0 5px 24px rgba(0, 0, 0, .08);
-    /* box-shadow: 0 8px 6px -6px rgba(0,0,0,.08); */
     cursor: pointer;
     border-radius: 10px;
-    /* height: 375px; */
 
 }
-.section .card .card-body{
+
+.section .card .card-body {
     padding: 29px 20px;
 
 }
+
 .section .card:hover {
     border-color: #1979ff;
     transition: all 0.3s ease-in-out;
@@ -343,7 +331,6 @@ border:0
 
 .section .card .card-body .card_container {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -369,8 +356,6 @@ border:0
 .section .card .card-body .f_container {
     display: flex;
     margin: 5px 0px;
-    /* padding:20px 0px */
-    /* align-items: center; */
 }
 
 
@@ -405,13 +390,13 @@ border:0
     height: 1px;
     margin: 18px 0px 16px 0;
 }
-.section .card .card-body .btn_container{
+
+.section .card .card-body .btn_container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .section .card .card-body .btn_container .writer_btn .item_btn {
-    /* min-height: 52px; */
     padding: 17px 19px;
     background-color: #f3f4fe;
     color: #6f6f6f;
@@ -419,24 +404,18 @@ border:0
     margin-right: 1rem;
     text-decoration: none;
     letter-spacing: 1px;
-    border:0
-
-
-
-
+    border: 0
 }
 
 .section .card .card-body .btn_container .writer_btn .item_btns {
-    /* min-height: 52px; */
     padding: 17px 19px;
     background-image: linear-gradient(264deg, #00c6fb, #1979ff);
     color: #fff;
-    /* padding: 20px 30px; */
     border-radius: 10px;
     margin-right: 1rem;
     text-decoration: none;
     letter-spacing: 1px;
-    border:0;
+    border: 0;
 
 
 
@@ -480,11 +459,7 @@ border:0
 
 }
 
-/* .slick-dots li.slick-active button:before{
-    /* color:#1979ff; */
-/* font-size:26px
 
-} */
 .section .slick-dots li button:focus:before,
 .section .slick-dots li button:hover:before {
     font-size: 26px;
@@ -501,14 +476,11 @@ border:0
 .section .main_view .view {
     background-color: initial;
     border: 1px solid #1979ff;
-    /* padding: 21px 67px; */
     width: 250px;
     padding: 15px 0px;
     font-size: 16px;
     font-weight: 600;
-    /* display: flex; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
+
     letter-spacing: 1px;
     border-radius: 10px;
     color: #1979ff;
@@ -560,174 +532,224 @@ border:0
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.main_service .main_hire_btn{
+
+.main_service .main_hire_btn {
     display: flex;
     justify-content: center;
 }
-.main_service .main_hire_btn .hire_btn{
+
+.main_service .main_hire_btn .hire_btn {
     margin: 3rem 0 0 0;
     padding: 16px 0;
     width: 250px;
     border: 0;
     background-image: linear-gradient(264deg, #00c6fb, #1979ff);
     border-radius: 10px;
-    color:#fff;
-    font-weight:600;
+    color: #fff;
+    font-weight: 600;
 
-   
+
 }
+
 @media screen and (max-width:1200px) {
-    .section .card{
-        width:22rem;
+    .section .card {
+        width: 22rem;
         margin: 0 auto;
 
     }
-    .main .embrace{
+
+    .main .embrace {
         font-size: 44px;
 
     }
-    .main .academic span{
+
+    .main .academic span {
         display: initial;
     }
-    .section .slick-next{
-        right:12px !important;
+
+    .section .slick-next {
+        right: 12px !important;
     }
-    .main_service .student .student_service{
-        padding:0;
-        font-size:14px;
+
+    .main_service .student .student_service {
+        padding: 0;
+        font-size: 14px;
     }
 }
+
 @media screen and (max-width:992px) {
-    .section .slick-next
-     {
+    .section .slick-next {
         display: none !important;
 
     }
-    .section .slick-prev{
+
+    .section .slick-prev {
         display: none !important;
     }
-    .navbar-nav{
-        text-align: center;
+
+    .navbar-nav {
+        text-align: left;
 
     }
-    .navbar .navbar-nav .nav-link{
-        padding:10px 0;
+
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
     }
+
     .navbar .d-flex {
         justify-content: center;
         padding: 10px 0px;
 
     }
-    .navbar .d-flex .btn{
-        margin:0px 10px 0 0 !important;
+
+    .navbar .d-flex .btn {
+        margin: 0px 10px 0 0 !important;
     }
+
     .section .slick-next {
         right: -22px !important;
     }
-    .section .slick-prev{
+
+    .section .slick-prev {
         left: -21px !important;
 
     }
+
     .main .academic {
         font-size: 16px;
     }
-    
+
 }
+
 @media screen and (max-width:768px) {
-    
-    .hero_section .r_container{
+
+    .hero_section .r_container {
         padding: 10px 12px;
-    
+
     }
-    .hero_section .r_container .r_item .s_container{
+
+    .hero_section .r_container .r_item .s_container {
         display: block;
     }
-    .hero_section .r_container .r_item .s_container .s_item{
-        margin-right:5px;
+
+    .hero_section .r_container .r_item .s_container .s_item {
+        margin-right: 5px;
     }
-    .hero_section .r_container .r_item .s_container .s_item{
+
+    .hero_section .r_container .r_item .s_container .s_item {
         text-align: center;
 
     }
-    .section .writer .order{
+
+    .section .writer .order {
         font-size: 15px;
 
     }
 }
-@media screen and (max-width:576px) {  
-    .section .card{
-        width:100% !important;
+
+@media screen and (max-width:576px) {
+    .main .card .card-img-overlay .form .nav-tabs .nav-item {
+        font-size: 12px;
     }
-    .main .card .card_image{
+
+    .main .card .card-img-overlay .form .nav-tabs .nav-item .nav-link {
+        padding: 10px;
+    }
+
+    .main .main-div {
+        text-align: center;
+    }
+
+    .section .card {
+        width: 100% !important;
+    }
+
+    .main .card .card_image {
         display: none;
     }
-    .main .card .card-img-overlay{
+
+    .main .card .card-img-overlay {
         position: initial;
     }
+
     .main .embrace {
         font-size: 36px;
     }
-    .main .embrace span{
+
+    .main .embrace span {
         display: inline;
     }
-    .section .writer .order span
-{
-    display: initial;
-} 
-.section .card .card-body .para_items{
-    height:43px;
-}
-.section .card .card-body .btn_container{
-    justify-content: center;
-}
-.section .card .card-body .btn_container .writer_btn{
-    width:100%
-}
-.section .card .card-body .btn_container .item_btn{
-    width:100%;
-    margin: 10px 0;
 
+    .section .writer .order span {
+        display: initial;
+    }
+
+    .section .card .card-body .para_items {
+        height: 43px;
+    }
+
+    .section .card .card-body .btn_container {
+        justify-content: center;
+    }
+
+    .section .card .card-body .btn_container .writer_btn {
+        width: 100%
+    }
+
+    .section .card .card-body .btn_container .item_btn {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+    .section .card .card-body .btn_container .item_btns {
+        width: 100%;
+    }
+
+    .main_service .more {
+        font-size: 25px;
+    }
 }
-.section .card .card-body .btn_container .item_btns{
-    width:100%;
-}
-.main_service .more{
-    font-size:25px;
-}
-}
-@media screen and (max-width:375px) { 
+
+@media screen and (max-width:375px) {
     .main .embrace {
         font-size: 30px;
     }
+
     .main .academic {
         font-size: 14px;
     }
-    .main .f_container .free{
-        font-size: 16px;
+
+    .main .f_container .free {
+        font-size: 12px;
     }
+
     .section .writer .order {
         font-size: 14px;
     }
+
     .section .writer .team {
         font-size: 30px;
     }
-    
-    .section .writer{
+
+    .section .writer {
         padding: 60px 21px;
 
     }
-    .hero_section{
+
+    .hero_section {
         display: none;
-    } 
+    }
+
     main .embrace {
         font-size: 35px;
     }
 }
 
-@media screen and (max-width:320px) {  
-    .main .card .card-img-overlay{
+@media screen and (max-width:320px) {
+    .main .card .card-img-overlay {
         position: initial;
     }
 

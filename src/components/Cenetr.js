@@ -11,17 +11,19 @@ const Center = () => {
       <Container>
         <Row className="align-items-center">
           <Col lg={6}>
-            <h1 className="essay">Essay writing service</h1>
-            <h1 className="embrace">
-              Embrace all aspects<span> of student life</span>
-            </h1>
-            <p className="academic">
-              Just ask, "write an essay for me." We'll alleviate your academic
-              worries<span> by connecting you with an expert writer.</span>
-            </p>
-            <button className="btn_1">Order now</button>
+            <div className="main-div">
+              <h1 className="essay">Essay writing service</h1>
+              <h1 className="embrace">
+                Embrace all aspects<span> of student life</span>
+              </h1>
+              <p className="academic">
+                Just ask, "write an essay for me." We'll alleviate your academic
+                worries<span> by connecting you with an expert writer.</span>
+              </p>
+              <button className="btn_1">Order now</button>
+            </div>
             <Row>
-              <Col lg={6}>
+              <Col lg={6} xs={6}>
                 <div className="f_container">
                   <div className="color"></div>
                   <p className="free">
@@ -30,7 +32,7 @@ const Center = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg={6}>
+              <Col lg={6} xs={6}>
                 <div className="f_container">
                   <div className="color"></div>
                   <p className="free">
@@ -39,7 +41,7 @@ const Center = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg={6}>
+              <Col lg={6} xs={6}>
                 <div className="f_container">
                   <div className="color"></div>
                   <p className="free">
@@ -48,7 +50,7 @@ const Center = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg={6} sm={12}>
+              <Col lg={6} xs={6}>
                 <div className="f_container">
                   <div className="color"></div>
                   <p className="free">
@@ -59,7 +61,7 @@ const Center = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={6} sm={12}>
+          <Col lg={6} xs={12}>
             <Card>
               <Card.Img className="card_image " src={Image} alt="Card image" />
               <Card.ImgOverlay>

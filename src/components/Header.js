@@ -3,13 +3,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
-import { Logo, Brand } from "./SVG"
+import { Logo, Brand } from "./SVG";
 
 function BasicExample() {
   return (
     <Navbar expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand href="#home">{Logo}&nbsp;&nbsp;{Brand}</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          {Logo}&nbsp;&nbsp;{Brand}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-auto">
@@ -19,30 +21,30 @@ function BasicExample() {
               <NavDropdown.Item href="#action/3.2">
                 Admission Essay Writing
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Coursework Writing</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Coursework Writing
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
                 Dissertation Writing
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
-                Research Paper Writing                  </NavDropdown.Item>
+                Research Paper Writing{" "}
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
-                Law Essay Writing        
-                           </NavDropdown.Item>
-                           <NavDropdown.Item href="#action/3.4">
-                            <b>
-                            View all writing services     
-
-                            </b>
-                           </NavDropdown.Item>
+                Law Essay Writing
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                <b>View all writing services</b>
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Best Offers" id="Offers">
               <NavDropdown.Item href="#action/3.1">
                 Best Offers
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Buy essay
+              <NavDropdown.Item href="#action/3.2">Buy essay</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                do my homework
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">do my homework</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
                 pay for essay
               </NavDropdown.Item>
@@ -62,7 +64,6 @@ function BasicExample() {
             <Button className="_btn mx-1">Sign Up</Button>
           </div>
         </Navbar.Collapse>
-
       </Container>
     </Navbar>
   );

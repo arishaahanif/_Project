@@ -6,8 +6,8 @@ import Image from "..//images/645a26dc6fc475ab02dbc360_hazard.webp";
 import Chris from "..//images/645a26dae17abab43b1434a9_cris.webp";
 import Susan from "..//images/645a26dbef420772a8de17ad_susan.webp";
 import Hannah from "..//images/645a26dc613941193909c2f2_hannah.webp";
-import Paul from "..//images/645a26dbe17aba6db11434b3_paul.webp"
-import {Rating} from './SVG'
+import Paul from "..//images/645a26dbe17aba6db11434b3_paul.webp";
+import { Rating } from "./SVG";
 
 const sliderArray = [
   {
@@ -22,7 +22,7 @@ const sliderArray = [
     degree: "Degree:",
     masters: " Master’s",
     text: "Competences:",
-    management:" Managment, Accounting Marketing, International Relations",
+    management: " Managment, Accounting Marketing, International Relations",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
   },
@@ -38,10 +38,12 @@ const sliderArray = [
     degree: "Degree:",
     masters: " Master’s",
     text: "Competences:",
-    management: " Business Administration, Literature, E-Commerce, Political Science",
+    management:
+      " Business Administration, Literature, E-Commerce, Political Science",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
-  }, {
+  },
+  {
     image: Hannah,
     title: "Hannah T.",
     rate: "98%",
@@ -53,10 +55,12 @@ const sliderArray = [
     degree: "Degree:",
     masters: " Master’s",
     text: "Competences:",
-    management: " Nursing, Medicine, Biology, Chemistry, Physics, Commerce, Accounting",
+    management:
+      " Nursing, Medicine, Biology, Chemistry, Physics, Commerce, Accounting",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
-  }, {
+  },
+  {
     image: Paul,
     title: "Paul T.",
     rate: "96% ",
@@ -68,10 +72,12 @@ const sliderArray = [
     degree: "Degree:",
     masters: " Bachelor",
     text: "Competences:",
-    management: " Medicine and Health, Liberal Arts and Humanities, Business and Finance",
+    management:
+      " Medicine and Health, Liberal Arts and Humanities, Business and Finance",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
-  }, {
+  },
+  {
     image: Chris,
     title: "Chris R.",
     rate: "98%",
@@ -86,8 +92,8 @@ const sliderArray = [
     management: " History, Sociology, Philosophy, Ethics, English Literature",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
-  
-  }, {
+  },
+  {
     image: Image,
     title: "Richard H.",
     rate: "100%",
@@ -99,7 +105,8 @@ const sliderArray = [
     degree: "Degree:",
     masters: " Master’s",
     text: "Competences:",
-    management: " Liberal Arts and Humanities, Physical Sciences, Business and Finance",
+    management:
+      " Liberal Arts and Humanities, Physical Sciences, Business and Finance",
     writerBtn: "About Writer",
     hireBtn: "Hire Writer",
   },
@@ -166,15 +173,12 @@ export default class Responsive extends Component {
                           <Card.Title className="title">
                             {item.title}
                           </Card.Title>
-                          <div className="rating">
-                            {Rating}
-                          </div>
+                          <div className="rating">{Rating}</div>
                         </div>
                       </div>
-                      {/* <Card.Title>{item.title}</Card.Title> */}
                       <div className="line"></div>
                       <Row>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} xs={6}>
                           <div className="f_container">
                             <div className="color"></div>
                             <p className="free">
@@ -182,25 +186,23 @@ export default class Responsive extends Component {
                             </p>
                           </div>
                         </Col>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} xs={6}>
                           <div className="f_container">
                             <div className="color"></div>
                             <p className="free">
                               <b>{item.number}</b> {item.review}
-
                             </p>
                           </div>
                         </Col>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} sm={6} xs={6}>
                           <div className="f_container">
                             <div className="color"></div>
                             <p className="free">
                               <b>{item.orders}</b> {item.finishedOrders}
-
                             </p>
                           </div>
                         </Col>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} sm={6} xs={6}>
                           <div className="f_container">
                             <div className="color"></div>
                             <p className="free">
@@ -211,22 +213,13 @@ export default class Responsive extends Component {
                       </Row>
                       <div className="line"></div>
                       <Card.Text className="para_items">
-                        <b>{item.text}
-                          </b>{item.management}</Card.Text>
-                      {/* <Card.Link className="item_btn" href="#">
-                        {item.writerBtn}
-                      </Card.Link>
-                      <Card.Link className="item_btns" href="#">
-                        <button>
-                        {item.hireBtn}
-
-                        </button>
-                      </Card.Link> */}
-                      <div className= "btn_container">
+                        <b>{item.text}</b>
+                        {item.management}
+                      </Card.Text>
+                    
+                      <div className="btn_container">
                         <div className="writer_btn">
-                          <button className="item_btn">
-                            {item.writerBtn}
-                          </button>
+                          <button className="item_btn">{item.writerBtn}</button>
                         </div>
                         <div className=" writer_btn">
                           <button className="item_btns">
