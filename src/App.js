@@ -5,7 +5,8 @@ import Header from"./components/Header";
 import Center from "./components/Cenetr";
 import Reviews from "./components/Reviews";
 import Slick from "./components/Slick";
-import Services from "./components/Services"
+import Services from "./components/Services";
+import {ContactUs} from "./components/Form";
 
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
       <Reviews/>
       <Slick/>
       <Services/>
+      {/* <ContactUs/> */}
     </div>
   );
 }
 
 export default App;
+{{}}

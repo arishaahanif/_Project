@@ -108,10 +108,6 @@ body {
     letter-spacing: 1px;
     font-size: 14px;
     margin: 10px 0 40px 0;
-
-
-
-
 }
 
 .main .f_container {
@@ -126,8 +122,6 @@ body {
     background-color: #00d366;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-
-
     margin-top: 5px;
 }
 
@@ -153,7 +147,7 @@ body {
 
 .main .card .card_image {
     max-width: 100%;
-    max-height: 535px;
+    max-height: 433px;
 }
 
 .main .card .card-img-overlay {
@@ -177,63 +171,8 @@ body {
     margin: auto;
 }
 
-.main .card .card-img-overlay .form .form-check-label {
-    white-space: nowrap;
-}
-
-.main .card .card-img-overlay .form .nav-tabs .nav-item {
-    width: 33%;
-    text-align: center;
-    border: 0;
-    font-size: 14px;
-    border-right: 1px solid lightgray;
-}
-
-.main .card .card-img-overlay .form .nav-tabs .nav-item:first-child {
-    border-color: #1979ff;
-}
-
-.main .card .card-img-overlay .form .nav-tabs .nav-item:last-child {
-    border-right: 0;
-}
-
-.main .card .card-img-overlay .form .nav-tabs .nav-item .nav-link {
-    border: 0;
-}
 
 
-.main .card .card-img-overlay .form .form-select {
-    background-color: #F3F4FE;
-    margin: 10px 0;
-}
-
-.main .card .card-img-overlay .form .default {
-    margin: 10px 0;
-
-}
-
-.main .card .card-img-overlay .form .dollar {
-    float: right;
-    font-weight: 600;
-}
-
-.main .card .card-img-overlay .form .btn_2 {
-    width: 100%;
-    background: #1979ff;
-    border: none;
-    color: #fff;
-    height: 35px;
-    border-radius: 10px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.main .card .card-img-overlay .form .price {
-    text-align: left;
-    font-weight: 600;
-    margin: 18px 0px;
-    font-size: 22px;
-}
 
 .hero_section {
     position: relative;
@@ -262,8 +201,6 @@ body {
 .hero_section .r_container .r_item .s_container {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .hero_section .r_container .r_item .s_container .s_item {
@@ -316,12 +253,10 @@ body {
     box-shadow: 0 5px 24px rgba(0, 0, 0, .08);
     cursor: pointer;
     border-radius: 10px;
-
 }
 
 .section .card .card-body {
     padding: 29px 20px;
-
 }
 
 .section .card:hover {
@@ -357,9 +292,6 @@ body {
     display: flex;
     margin: 5px 0px;
 }
-
-
-
 
 .section .card .card-body .f_container .color {
     width: 10px;
@@ -552,6 +484,48 @@ body {
 
 
 }
+.main .contact_form .get{
+    margin-bottom:20px;
+}
+.main .contact_form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main .contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .contact_form input[type="text"],
+input[type="email"],
+textarea {
+    background: #F3F4FE;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main .contact_form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main .contact_form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
 
 @media screen and (max-width:1200px) {
     .section .card {
